@@ -1,11 +1,12 @@
 const Discord = require("discord.js");
 const config = require("./config.json");
 const quoi = require("./quoi.json");
+require("dotenv").config();
 
 const intents = new Discord.IntentsBitField(3276799);
 const bot = new Discord.Client({ intents });
 
-bot.login(config.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
 
 bot.on("messageCreate", async (message) => {
   quoi.forEach((q) => {
