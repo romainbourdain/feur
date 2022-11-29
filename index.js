@@ -14,7 +14,10 @@ bot.on("messageCreate", async (message) => {
       content.length >= q.length &&
       content.slice(content.length - q.length, content.length) === q
     ) {
-      message.channel.send("feur");
+      const embed = new Discord.EmbedBuilder()
+        .setTitle("Feur")
+        .setImage("https://media.tenor.com/CJIntL3axZUAAAAd/feur-meme.gif");
+      message.channel.send({ embeds: [embed] });
     }
   });
 });
