@@ -1,7 +1,5 @@
 # Bot Feur
 
----
-
 ## Installation
 
 **⚠️ Attention ⚠️ : Il faut avoir installé node.js sur votre machine. Je vous laisse regarder sur la documentation officielle comment faire si ce n'est pas le cas !**
@@ -18,8 +16,6 @@
   Copier le lien généré en dessous et le coller dans un nouvel onglet et choisir le serveur dans lequel on veut ajouter le bot puis cliquer sur `Continuer`
 
 **✅ C'est bon, le bot est opérationnel !**
-
----
 
 ### Lien entre le Bot Discord et le projet
 
