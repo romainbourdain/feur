@@ -13,6 +13,9 @@ const imageList = [
   "https://media.tenor.com/71BKREg8HCMAAAAd/feur-bambam-feur.gif",
   "https://media.tenor.com/MlnMzLYdEnEAAAAC/multicort-feur.gif",
   "https://media.tenor.com/lGR06JUFwikAAAAC/cocrane-feur.gif",
+  "https://media.tenor.com/W82_AKnTBgUAAAAC/feur.gif",
+  "https://media.tenor.com/zvg8w0FkecYAAAAC/feur-theobabac.gif",
+  "https://media.tenor.com/cjq-FpCxTaoAAAAC/feur-th%C3%A9obabac.gif"
 ];
 
 bot.login(process.env.BOT_TOKEN);
@@ -20,7 +23,7 @@ bot.login(process.env.BOT_TOKEN);
 bot.on("messageCreate", async (message) => {
   quoi.forEach((q) => {
     const content = message.content.toLowerCase().replace(/[^a-z]+/g, "");
-    const image = imageList[parseInt(Math.random() * 7)];
+    const image = imageList[parseInt(Math.random() * 10)];
     if (
       content.length >= q.length &&
       content.slice(content.length - q.length, content.length) === q
