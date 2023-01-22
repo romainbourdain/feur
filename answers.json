@@ -166,5 +166,14 @@
     "answer": {
       "title": "quette"
     }
+  },
+  {
+    "suffix": ["yrv", "yannick"],
+    "answer": {
+      "title": "the goat",
+      "images": [
+        "https://media.tenor.com/7SqYghR-B4oAAAAC/doug-maclean-doug.gif"
+      ]
+    }
   }
 ]
