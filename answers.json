@@ -124,5 +124,47 @@
         "https://media.tenor.com/cjq-FpCxTaoAAAAC/feur-th%C3%A9obabac.gif"
       ]
     }
+  },
+  {
+    "suffix": ["oui", "wi", "wii"],
+    "answer": {
+      "title": "stiti"
+    }
+  },
+  {
+    "suffix": ["non", "nom"],
+    "answer": {
+      "title": "bril"
+    }
+  },
+  {
+    "suffix": ["hein"],
+    "answer": {
+      "title": "deux trois soleil"
+    }
+  },
+  {
+    "suffix": ["comment"],
+    "answer": {
+      "title": "taire"
+    }
+  },
+  {
+    "suffix": ["ah"],
+    "answer": {
+      "title": "b"
+    }
+  },
+  {
+    "suffix": ["allo"],
+    "answer": {
+      "title": "pital"
+    }
+  },
+  {
+    "suffix": ["qui", "ki"],
+    "answer": {
+      "title": "quette"
+    }
   }
 ]
