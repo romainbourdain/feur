@@ -126,7 +126,7 @@
     }
   },
   {
-    "suffix": ["oui", "wi", "wii"],
+    "suffix": ["oui", "wi", "wii", "ui"],
     "answer": {
       "title": "stiti"
     }
@@ -165,6 +165,12 @@
     "suffix": ["qui", "ki"],
     "answer": {
       "title": "wi"
+    }
+  },
+  {
+    "suffix": ["ouais", "oe"],
+    "answer": {
+      "title": "stern"
     }
   },
   {
