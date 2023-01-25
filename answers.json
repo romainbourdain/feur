@@ -126,7 +126,7 @@
     }
   },
   {
-    "suffix": ["oui", "wi", "wii", "ui"],
+    "suffix": ["wi", "wii", "ui"],
     "answer": {
       "title": "stiti"
     }
