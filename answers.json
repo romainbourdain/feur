@@ -182,18 +182,21 @@
     }
   },
   {
-    "suffix": ["yrv", "yannick"],
-    "answer": {
-      "title": "the goat",
-      "images": [
-        "https://media.tenor.com/7SqYghR-B4oAAAAC/doug-maclean-doug.gif"
-      ]
-    }
-  },
-  {
     "suffix": ["feur"],
     "answer": {
       "title": "ouge"
+    }
+  },
+  {
+    "suffix": ["la"],
+    "answer": {
+      "title": "si do ré mi"
+    }
+  },
+  {
+    "suffix": ["toi", "toit"],
+    "answer": {
+      "title": "ture"
     }
   }
 ]
