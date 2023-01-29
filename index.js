@@ -10,7 +10,9 @@ const bot = new Discord.Client({ intents });
 bot.login(process.env.BOT_TOKEN);
 
 bot.on("messageCreate", async (message) => {
-  const filteredMessage = message.content.toLowerCase().replace(/[^a-z]+/g, "");
+  const filteredMessage = message.content
+    .toLowerCase()
+    .replace(/[^a-z0-9à]+/g, "");
   answers.forEach((a) => {
     a.suffix.forEach((s) => {
       if (isEndOfMessage(filteredMessage, s)) {
