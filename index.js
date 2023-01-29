@@ -12,7 +12,9 @@ bot.login(process.env.BOT_TOKEN);
 bot.on("messageCreate", async (message) => {
   const filteredMessage = message.content
     .toLowerCase()
-    .replace(/[^a-z0-9à]+/g, "");
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "");
   answers.forEach((a) => {
     a.suffix.forEach((s) => {
       if (isEndOfMessage(filteredMessage, s)) {
