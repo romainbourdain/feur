@@ -18,7 +18,11 @@ bot.on("messageCreate", async (message) => {
   answers.forEach((a) => {
     a.suffix.forEach((s) => {
       if (isEndOfMessage(filteredMessage, s)) {
-        sendAnswer(message, a.answer);
+        try {
+          sendAnswer(message, a.answer);
+        } catch (e) {
+          console.log(e);
+        }
       }
     });
   });
