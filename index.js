@@ -10,6 +10,7 @@ const bot = new Discord.Client({ intents });
 bot.login(process.env.BOT_TOKEN);
 
 bot.on("messageCreate", async (message) => {
+  if (message.author.bot) return;
   const filteredMessage = message.content
     .toLowerCase()
     .normalize("NFD")
@@ -20,6 +21,7 @@ bot.on("messageCreate", async (message) => {
       if (isEndOfMessage(filteredMessage, s)) {
         try {
           sendAnswer(message, a.answer);
+          return;
         } catch (e) {
           console.log(e);
         }

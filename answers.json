@@ -133,7 +133,14 @@
         "https://media.tenor.com/lGR06JUFwikAAAAC/cocrane-feur.gif",
         "https://media.tenor.com/W82_AKnTBgUAAAAC/feur.gif",
         "https://media.tenor.com/zvg8w0FkecYAAAAC/feur-theobabac.gif",
-        "https://media.tenor.com/cjq-FpCxTaoAAAAC/feur-th%C3%A9obabac.gif"
+        "https://media.tenor.com/cjq-FpCxTaoAAAAC/feur-th%C3%A9obabac.gif",
+        "https://media.tenor.com/LUfMVhBaRxoAAAAd/feur-cr7feur.gif",
+        "https://media.tenor.com/U6y_qJj24V4AAAAC/feur-quoi.gif",
+        "https://media.tenor.com/sQSD3VTcPAUAAAAC/feur-olivier.gif",
+        "https://media.tenor.com/Cqubk_jaB10AAAAd/feur.gif",
+        "https://media.tenor.com/pGdwY7YIp0oAAAAd/feur.gif",
+        "https://media.tenor.com/ersIiwA8jtsAAAAd/feur-quoicoubeh.gif",
+        "https://media.tenor.com/Lt6ssQJhcugAAAAC/quoicoubeh-quoicoube.gif"
       ]
     }
   },
@@ -188,7 +195,7 @@
   {
     "suffix": ["feur"],
     "answer": {
-      "title": "ouge"
+      "title": "rouge"
     }
   },
   {
@@ -201,6 +208,35 @@
     "suffix": ["toi", "toit"],
     "answer": {
       "title": "ture"
+    }
+  },
+  {
+    "suffix": ["rouge"],
+    "answer": {
+      "title": "gorge"
+    }
+  },
+  {
+    "suffix": ["gorge"],
+    "answer": {
+      "title": "profonde"
+    }
+  },
+  {
+    "suffix": ["crampte"],
+    "answer": {
+      "title": "apagnan",
+      "images": [
+        "https://media.tenor.com/ymMJUF1eIWwAAAAd/quoicoubeh-david-la-caill%C3%A9.gif",
+        "https://media.tenor.com/fpxBZFivLcsAAAAd/bigflo-quoicoubeh-il-est-jeune-et-cool.gif",
+        "https://media.tenor.com/Cra8EQZxWk0AAAAC/whattheheck.gif"
+      ]
+    }
+  },
+  {
+    "suffix": ["adolf"],
+    "answer": {
+      "title": "chelou votre pote"
     }
   }
 ]
